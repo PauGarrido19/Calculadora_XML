@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Calcunova</string>
+    <string name="app_name">CalcuNova</string>
+    <string name="subtitulo">Calculadora básica</string>
+    <string name="creadores">Pau Garrido Claramonte</string>
+    <string name="curso">2DAM</string>
+    <string name="entrar">Entrar</string>
+    <string name="salir">Salir</string>
+    <string name="despedida_titulo">¡Hasta pronto!</string>
+    <string name="despedida_texto">Gracias por usar CalcuNova</string>
+    <string name="volver">Volver a empezar</string>
+    <string name="cerrar">Cerrar app</string>
 </resources>
