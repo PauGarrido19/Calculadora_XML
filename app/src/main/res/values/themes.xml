@@ -3,4 +3,30 @@
         <item name="android:windowBackground">@color/fondo</item>
         <item name="colorPrimary">@color/primario</item>
     </style>
+
+    <style name="Boton.Base" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/texto</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">5dp</item>
+    </style>
+
+    <style name="Boton.Numero" parent="Boton.Base">
+        <item name="backgroundTint">@color/boton_numero</item>
+    </style>
+
+    <style name="Boton.Operacion" parent="Boton.Base">
+        <item name="backgroundTint">@color/boton_operacion</item>
+        <item name="android:textColor">@color/fondo</item>
+    </style>
+
+    <style name="Boton.Igual" parent="Boton.Base">
+        <item name="backgroundTint">@color/primario</item>
+        <item name="android:textColor">@color/fondo</item>
+    </style>
 </resources>
