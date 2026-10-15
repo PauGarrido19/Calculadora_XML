@@ -9,4 +9,5 @@
     <string name="despedida_texto">Gracias por usar CalcuNova</string>
     <string name="volver">Volver a empezar</string>
     <string name="cerrar">Cerrar app</string>
+    <string name="menu_modo">Modo día/noche</string>
 </resources>
